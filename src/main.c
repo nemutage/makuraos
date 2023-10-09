@@ -22,7 +22,7 @@ typedef struct {
 EFI_SYSTEM_TABLE *g_system_table;
 
 void init_efi(EFI_SYSTEM_TABLE *system_table) {
-	g_system_table = system_table;
+  g_system_table = system_table;
 }
 
 void print_string(CHAR16 *string) {
