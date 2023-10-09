@@ -33,10 +33,8 @@ EFI_STATUS efi_main(
   EFI_HANDLE        image_handle,
   EFI_SYSTEM_TABLE  *system_table
 ) {
-	init_efi(system_table);
-
+  init_efi(system_table);
   print_string(L"Hello, Makura World!\n");
-
   while (1);
   return 0;
 }
